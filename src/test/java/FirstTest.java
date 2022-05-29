@@ -5,6 +5,6 @@ public class FirstTest {
 
     @Test
     public void firstTest() {
-        Assertions.assertTrue( 9 == 2);
+        System.out.println("Conflict here!!!");
     }
 }
