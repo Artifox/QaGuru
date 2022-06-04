@@ -1,4 +1,5 @@
-import org.junit.jupiter.api.Assertions;
+package lesson2;
+
 import org.junit.jupiter.api.Test;
 
 public class FirstTest {
