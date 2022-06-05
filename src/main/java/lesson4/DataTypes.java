@@ -52,5 +52,9 @@ public class DataTypes {
 
         System.out.println("!(a && b) = " + !(trueBool && falseBoole));
 
+        String baseString = "some string";
+        String resultString = baseString + maxInt;
+        System.out.println(resultString);
+
     }
 }
