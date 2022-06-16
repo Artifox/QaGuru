@@ -10,12 +10,24 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     testImplementation(
-            "com.codeborne:selenide:6.5.0",
+            'com.codeborne:selenide:6.5.0',
             "org.junit.jupiter:junit-jupiter:5.8.2",
-            "com.github.javafaker:javafaker:1.0.2"
+            "com.github.javafaker:javafaker:1.0.2",
+            "com.google.guava:guava:31.1-jre",
+            "org.slf4j:slf4j-simple:1.7.36"
     )
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
 }
 
 test {

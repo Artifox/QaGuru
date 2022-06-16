@@ -1,4 +1,4 @@
-package lesson5.pages.components;
+package lesson5_6.pages.components;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;

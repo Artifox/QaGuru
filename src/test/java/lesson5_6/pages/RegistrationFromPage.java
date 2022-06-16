@@ -1,8 +1,8 @@
-package lesson5.pages;
+package lesson5_6.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import lesson5.pages.components.CalendarComponent;
-import lesson5.pages.components.ResultsTableComponent;
+import lesson5_6.pages.components.CalendarComponent;
+import lesson5_6.pages.components.ResultsTableComponent;
 import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.text;

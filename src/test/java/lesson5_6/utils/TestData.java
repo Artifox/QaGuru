@@ -1,4 +1,4 @@
-package lesson5.utils;
+package lesson5_6.utils;
 
 import com.github.javafaker.Faker;
 

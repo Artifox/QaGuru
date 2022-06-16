@@ -1,7 +1,7 @@
-package lesson5.tests;
+package lesson5_6.tests;
 
 import com.codeborne.selenide.Configuration;
-import lesson5.pages.RegistrationFromPage;
+import lesson5_6.pages.RegistrationFromPage;
 import org.junit.jupiter.api.BeforeAll;
 
 public class BaseTest {

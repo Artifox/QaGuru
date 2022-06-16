@@ -1,6 +1,6 @@
-package lesson5.tests;
+package lesson5_6.tests;
 
-import lesson5.utils.TestData;
+import lesson5_6.utils.TestData;
 import org.junit.jupiter.api.Test;
 
 public class FormTests extends BaseTest {
