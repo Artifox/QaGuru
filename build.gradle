@@ -10,6 +10,8 @@ repositories {
     mavenCentral()
 }
 
+def restAssuredVersion = "5.1.1"
+
 allure {
     report {
         version.set("2.18.1")
@@ -37,7 +39,8 @@ dependencies {
             "com.codeborne:xls-test:1.4.3",
             "com.opencsv:opencsv:5.6",
             "com.fasterxml.jackson.core:jackson-databind:2.13.3",
-            "org.projectlombok:lombok:1.18.24"
+            "org.projectlombok:lombok:1.18.24",
+            "io.rest-assured:rest-assured:$restAssuredVersion"
     )
 }
 
